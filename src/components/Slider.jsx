@@ -17,10 +17,10 @@ const Slider = () => {
                 <div className="row">
                     <div className="social-link">
                         <p>Follow us: </p>
-                        <a href="/"><IoLogoFacebook /></a>
-                        <a href="/"><IoLogoTwitter /></a>
-                        <a href="/"><IoLogoGoogle /></a>
-                        <a href="/"><IoLogoYoutube /></a>
+                        <a href="/"><IoLogoFacebook style={{color:'white',marginRight:'1rem'}} /></a>
+                        <a href="/"><IoLogoTwitter style={{color:'white',marginRight:'1rem'}}  /></a>
+                        <a href="/"><IoLogoGoogle style={{color:'white',marginRight:'1rem'}}  /></a>
+                        <a href="/"><IoLogoYoutube style={{color:'white',marginRight:'1.5rem'}}  /></a>
                     </div>
                     <div className="slick-multiItemSlider">
                         <div className="movie-item">

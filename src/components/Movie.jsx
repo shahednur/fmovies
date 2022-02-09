@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoArrowForward } from "react-icons/io5";
+import { IoChevronForward } from "react-icons/io5";
 import { IoStarSharp } from "react-icons/io5";
 
 import ads1 from '../assets/images/uploads/ads1.png';
@@ -25,7 +26,7 @@ const Movie = () => {
                     <div className="col-md-8">
                         <div className="title-hd">
                             <h2>in theater</h2>
-                            <a href="/" className="viewall">View all <IoArrowForward /></a>
+                            <a href="/" className="viewall">View all <IoChevronForward /></a>
                         </div>
                         <div className="tabs">
                             <ul className="tab-links">
